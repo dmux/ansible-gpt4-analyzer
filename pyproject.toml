@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ansible-gpt4-analysis"
+version = "0.1.0"
+description = ""
+authors = ["Rafael Sales <rafael.sales@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.10.6"
+ansible-core = "^2.15.1"
+openai = "^0.27.8"
+PyYAML = "^6.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
